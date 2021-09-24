@@ -1,0 +1,57 @@
+import VueI18n from "vue-i18n";
+import Vue from "vue";
+
+Vue.use(VueI18n);
+
+export const i18n = new VueI18n({
+  locale: "ua",
+  fallbackLocale: "en",
+  messages: {
+    en: {
+      loginTitle: "Login",
+      password: "password",
+      login: "login",
+      register: "register",
+      error: "Something went wrong",
+      start: "start",
+      typeAnswer: "type text",
+      add: "add option",
+      tests: "Tests",
+      dash: "Dashboard",
+      logout: "logout",
+      ttitle: "Task title",
+      ttext: "Task text",
+      chose: "chose type of answer",
+      ya: "your answer",
+      wo: "with options",
+      on: "one correct answer",
+      create: "Create task",
+      acc: "dont have a account",
+      acc2: "already has an account ?",
+      submit: "submit",
+    },
+    ua: {
+      loginTitle: "Логін",
+      password: "пароль",
+      login: "логін",
+      register: "реєстрація",
+      error: "Щось пішло не так",
+      start: "почати",
+      typeAnswer: "Уведіть текст",
+      add: "добавити варіант",
+      tests: "Тести",
+      dash: "Дашбоард",
+      logout: "Вийти",
+      ttitle: "Заголовок задачі",
+      ttext: "Текст задачі",
+      chose: "Оберіть тип відповіді",
+      ya: "своя відповідь",
+      wo: "з декількома відповідями",
+      on: "одна правильна відповідь",
+      create: "Створити задачу",
+      acc: "Не маєте аккаунту ?",
+      acc2: "Вже маєте аккаунт ?",
+      submit: "відправити",
+    },
+  },
+});
